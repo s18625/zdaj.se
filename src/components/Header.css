@@ -1,0 +1,59 @@
+.header {
+    background-color: rgba(137, 43, 226, 0.234);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+
+
+}
+
+.header svg {
+    height: 100%;
+    width: auto;
+}
+
+.header .burger-existed {
+    display: flex;
+    height: 100%;
+    order: 2;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 20px;
+    transition: .3s;
+}
+
+.header .burger-hidden {
+    display: flex;
+    height: 100%;
+    order: 2;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 20px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.header span {
+    font-size: 30px;
+}
+
+
+
+header * {
+    padding: 3px;
+}
+
+.header .logo {
+    padding-left: 5vw;
+    padding-right: 0.5vw;
+    height: 80%;
+}
+
+.header img {
+    padding-left: 5vw;
+    padding-right: 0.5vw;
+    height: 180%;
+
+}

@@ -1,0 +1,116 @@
+.navbar,
+.navbar-hidden {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 1%;
+    z-index: 1;
+    transition: 500ms;
+    width: 20%;
+    overflow: hidden;
+    background: linear-gradient(to right bottom, #0f292f, #000);
+    /* background-color: #0f292f; */
+    box-sizing: border-box;
+    text-align: center;
+    color: #cb2d6f;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar .menu {
+    opacity: 1;
+    transition: 500ms;
+    font-size: 1.8vw;
+}
+
+.navbar-hidden .menu {
+    opacity: 0;
+    transition: 500ms;
+}
+
+#flipped-arrow,
+#arrow {
+    font-size: 6vh;
+}
+
+#flipped-arrow {
+    color: white;
+    transition: 500ms;
+    border-radius: 50%;
+    transform: scaleX(-1);
+}
+
+#arrow,
+#flipped-arrow {
+    opacity: 1;
+}
+
+#arrow {
+    color: #14a098;
+    transition: 500ms;
+}
+
+#flipped-arrow:hover {
+    color: #cb2d6f;
+    font-size: 7vh;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+nav svg {
+    float: left;
+}
+
+.navbar {
+    width: 20%;
+}
+
+.navbar-hidden {
+    padding: 0;
+    width: 0%;
+}
+
+.nav-item {
+    padding: 5%;
+    display: flex;
+    white-space: nowrap;
+    color: #14a098;
+    transition: .2s;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    background-color: #CCCCCC;
+    color: #000;
+    align-self: center;
+
+}
+
+.nav-item svg {
+    color: #14a098;
+    margin-right: 10%;
+    height: 100%;
+    width: auto;
+    align-self: center;
+
+}
+
+.navbar-hidden span,
+.navbar-hidden svg {
+    transition: 500ms;
+    opacity: 0;
+    font-size: 0;
+}
+
+.navbar span,
+.navbar svg {
+    transition: 500ms;
+    opacity: 1;
+    font-size: 2vw;
+}

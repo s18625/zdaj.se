@@ -1,0 +1,21 @@
+.page,
+.page-cropped {
+    position: absolute;
+    color: whitesmoke;
+    height: 100vh;
+    left: 0;
+    transition: 500ms;
+    text-align: justify;
+    overflow: auto;
+    background: linear-gradient(to left bottom, #222, #000);
+}
+
+.page {
+    right: 0;
+
+}
+
+.page-cropped {
+    right: 20%;
+
+}
