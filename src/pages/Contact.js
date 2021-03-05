@@ -1,5 +1,8 @@
 import React from "react";
 import "./Contact.css";
+import subjects from "../Data/SubjectsData";
+
+const subs = subjects.map((subject) => <option value="">{subject}</option>);
 
 const Contact = (props) => (
   <div className="contact">
@@ -8,7 +11,10 @@ const Contact = (props) => (
         <label className="subject" for="subject">
           przedmiot
         </label>
-        <input type="text" placeholder="wybierz przedmiot" name="subject" />
+        <select name="" id="">
+          <option value="" selected></option>
+          {subs}
+        </select>
       </div>
 
       <div className="wrapper">

@@ -30,7 +30,8 @@
 }
 
 .form input,
-.form textarea {
+.form textarea,
+.form select {
     border: 0;
     background-color: rgba(255, 255, 255, 0);
     margin: 10px auto 20px;
@@ -46,8 +47,17 @@
 
 }
 
+.form select {
+    /* color: black; */
+    color: #888;
+    text-align-last: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .form input:focus,
-.form textarea:focus {
+.form textarea:focus,
+.form select:focus {
     border: 2px solid #0d91ae;
     /* transform: scaleX(1.2); */
     width: 95%;
