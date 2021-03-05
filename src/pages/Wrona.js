@@ -13,9 +13,9 @@ const Wrona = () => {
   return (
     <div className="wrona up">
       <span className="text">Wrona</span>
-      <span className="text">przestan</span>
-      <span className="text">nam studentow</span>
-      <span className="text">przesladowac</span>
+      <span className="text">ty</span>
+      <span className="text">kurwo</span>
+      <span className="text">pierdolona</span>
       <img className="logo up" src={logo} alt="" />
     </div>
   );
