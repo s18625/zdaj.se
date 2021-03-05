@@ -24,6 +24,16 @@
     transition: .3s;
 }
 
+.header .burger-existed svg {
+    transition: .3s;
+
+}
+
+.header .burger-existed svg:hover {
+    transform: scale(1.1) rotate(360deg);
+
+}
+
 .header .burger-hidden {
     display: flex;
     height: 100%;

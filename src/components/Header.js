@@ -8,6 +8,7 @@ import logo from "../images/tomaszew_logo.png";
 const Header = ({ toggleBar, isNavShown }) => {
   const burger = (
     <div className={isNavShown ? "burger-hidden" : "burger-existed"}>
+      {/* zajebister nmazwy debilu jebany */}
       <FaHamburger onClick={toggleBar} />
     </div>
   );

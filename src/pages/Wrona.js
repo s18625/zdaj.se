@@ -1,17 +1,22 @@
 import "./Wrona.css";
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
+import logo from "../images/tomaszew_logo.png";
 const Wrona = () => {
-  const wrapper = useRef(null);
   useEffect(() => {
-    const t1 = gsap.timeline({ defaults: { ease: "power3.inOut" } });
-    t1.to(".wrona", { y: "-100%", duration: 3 });
+    const t1 = gsap.timeline({ defaults: { ease: "power4.inOut" } });
+    t1.to(".text", { opacity: "1", duration: 1, stagger: 0.3 });
+    t1.to(".up", { y: "-100%", duration: 2 });
+    // t1.to(".wrona", { y: "-100%", duration: 1 });
   });
 
   return (
-    <div className="wrona">
-      Wrona przestan mi <br />
-      studentow przesladowac
+    <div className="wrona up">
+      <span className="text">Wrona</span>
+      <span className="text">przestan</span>
+      <span className="text">nam studentow</span>
+      <span className="text">przesladowac</span>
+      <img className="logo up" src={logo} alt="" />
     </div>
   );
 };
