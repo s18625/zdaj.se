@@ -24,7 +24,7 @@
 }
 
 .wrona .logo {
-    position: fixed;
-    top: 123%;
+    position: absolute;
+    top: 95%;
     transform: translate(0, -50%);
 }

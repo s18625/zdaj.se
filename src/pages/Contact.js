@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = (props) => (
   <div className="contact">
-    <form action="" noValidate className="form">
+    <form action="" className="form">
       <div className="wrapper">
         <label className="subject" for="subject">
           przedmiot
@@ -31,7 +31,7 @@ const Contact = (props) => (
         ></textarea>
       </div>
 
-      <button className="submit-button" type="submit" noValidate>
+      <button className="submit-button" type="button">
         Wyslij
       </button>
     </form>

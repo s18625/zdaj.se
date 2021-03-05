@@ -3,7 +3,7 @@ import "./Header.css";
 import * as AiIcons from "react-icons/ai";
 import { GiCloak } from "react-icons/gi";
 import { FaHamburger } from "react-icons/fa";
-import logo from "../images/tomaszew_logo.png";
+import logo from "../images/logo.png";
 
 const Header = ({ toggleBar, isNavShown }) => {
   const burger = (

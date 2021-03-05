@@ -1,7 +1,7 @@
 import "./Wrona.css";
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
-import logo from "../images/tomaszew_logo.png";
+import logo from "../images/logo.png";
 const Wrona = () => {
   useEffect(() => {
     const t1 = gsap.timeline({ defaults: { ease: "power4.inOut" } });
