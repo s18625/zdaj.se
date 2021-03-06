@@ -55,6 +55,11 @@
     justify-content: flex-end;
 }
 
+.form option {
+    background-color: rgba(0, 0, 0, 0.793);
+    color: whitesmoke;
+}
+
 
 
 .form input:focus,

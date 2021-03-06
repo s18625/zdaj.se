@@ -12,29 +12,29 @@ const subs = subjects.map((subject, index) => (
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs
-    .sendForm(
-      "service_nm78hhd",
-      "template_13r2bxn",
-      e.target,
-      "user_fhKwajKZobEAfYcJILkpX"
-    )
-    .then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-  e.target.reset();
+  // emailjs
+  //   .sendForm(
+  //     "service_nm78hhd",
+  //     "template_13r2bxn",
+  //     e.target,
+  //     "user_fhKwajKZobEAfYcJILkpX"
+  //   )
+  //   .then(
+  //     (result) => {
+  //       console.log(result.text);
+  //     },
+  //     (error) => {
+  //       console.log(error.text);
+  //     }
+  //   );
+  // e.target.reset();
 }
 
 const Contact = (props) => (
   <div className="contact">
     <form action="" className="form" onSubmit={sendEmail}>
       <div className="wrapper">
-        <label className="subject" for="subject">
+        <label className="sub" for="sub">
           przedmiot
         </label>
         <select name="sub" id="">
