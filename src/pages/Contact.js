@@ -1,10 +1,10 @@
 import React from "react";
 import "./Contact.css";
-import subjects from "../Data/SubjectsData";
+import SubjectsData from "../Data/SubjectsData";
 import emailjs from "emailjs-com";
 
-const subs = subjects.map((subject, index) => (
-  <option value="" name="sub" key={index}>
+const subs = SubjectsData.map((subject, index) => (
+  <option value={subject} name="sub" key={index}>
     {subject}
   </option>
 ));
@@ -27,7 +27,7 @@ function sendEmail(e) {
   //       console.log(error.text);
   //     }
   //   );
-  // e.target.reset();
+  e.target.reset();
 }
 
 const Contact = (props) => (
@@ -52,7 +52,6 @@ const Contact = (props) => (
 
         <input
           type="e-mail"
-          name=""
           id=""
           placeholder="wpisz swojego maila"
           name="email"
