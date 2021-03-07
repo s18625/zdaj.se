@@ -4,6 +4,8 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
 }
 
 ::-webkit-scrollbar {
@@ -38,8 +40,7 @@ body,
     height: 100%;
     width: 100%;
     overflow: hidden;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+
 }
 
 a {
@@ -62,7 +63,7 @@ ul {
 }
 
 .content-cropped {
-    width: 80%;
+    width: 83%;
 
 }
 

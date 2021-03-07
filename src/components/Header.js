@@ -18,7 +18,7 @@ const Header = ({ toggleBar, isNavShown }) => {
       {burger}
       {/* <GiCloak className="logo" /> */}
       <img src={logo} alt="" />
-      <span className="brand"> zdaj.SE </span>
+      <span className="brand"> zdaj.se </span>
     </header>
   );
 };
