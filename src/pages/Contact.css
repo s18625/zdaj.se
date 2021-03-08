@@ -66,7 +66,7 @@
 }
 
 .form option {
-    background-color: rgba(0, 0, 0, 0.793);
+    background-color: rgba(0, 0, 0, 0.786);
     text-align: center;
     /* color: whitesmoke; */
 
@@ -102,5 +102,20 @@
     border-radius: 10px;
     width: 20%;
     text-transform: uppercase;
+
+}
+
+@media(orientation: portrait) {
+    .form {
+        width: 90vw;
+        position: absolute;
+    }
+
+    .form option {
+        font-size: .7vh;
+
+    }
+
+
 
 }

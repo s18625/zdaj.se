@@ -18,21 +18,21 @@ const subs = SubjectsData.map((subject, index) => (
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs
-    .sendForm(
-      "service_uut4joi",
-      "template_os7e4je",
-      e.target,
-      "user_UQgrd5zbZwMURxuo0oszo"
-    )
-    .then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+  // emailjs
+  //   .sendForm(
+  //     "service_uut4joi",
+  //     "template_os7e4je",
+  //     e.target,
+  //     "user_UQgrd5zbZwMURxuo0oszo"
+  //   )
+  //   .then(
+  //     (result) => {
+  //       console.log(result.text);
+  //     },
+  //     (error) => {
+  //       console.log(error.text);
+  //     }
+  //   );
   e.target.reset();
 }
 

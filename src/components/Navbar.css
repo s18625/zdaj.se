@@ -114,3 +114,21 @@ nav svg {
     opacity: 1;
     font-size: 2vw;
 }
+
+@media(orientation: portrait) {
+
+    .navbar {
+        width: 85%;
+    }
+
+    .navbar span,
+    .navbar svg {
+        transition: 500ms;
+        opacity: 1;
+        font-size: 8vw;
+    }
+
+    .navbar .menu {
+        font-size: 8vw;
+    }
+}
