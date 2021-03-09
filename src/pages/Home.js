@@ -3,32 +3,50 @@ import "./Home.css"
 
 const Home = (props) => (
   <div className="home">
-    <h1 className="mainHeader">Masz problem z zaliczeniem przedmiotu 
-    lub chcialbyś doszlifowaś swoje umiejetności?
+    <h1>Masz problem z zaliczeniem przedmiotu  
+
+lub chciałbyś doszlifować swoje umiejętności? 
+
     </h1>
-    <div className="article">
-      Oferujemy zarówno klasyczne korepetycje jak i rozwiazywanie przyslanych przez Ciebie zadań.
-      Jezeli nasze rozwiazanie nie otrzyma oceny conajmniej dostatecznej gwarantujemy zwrot pieniędzy.
-      Zarezerwuj termin w sekcji sklepu lub zadaj nam pytanie w razie niejasności uzywając formularza
-      sekcji kontaktu.
-    </div>
+    <h3>
+    Oferujemy zarówno klasyczne korepetycje jak i rozwiazywanie przysłanych przez Ciebie zadań. 
 
-    <div className="subHeader">Jak dzialamy?</div>
-    <div className="article">
-      Po wypełnieniu formularza
-      na podanego przez Ciebie  e-maila wysłana zostanie odpowiedź wraz z proponowaną ceną za usługę.
-      Cena generowana jest automatycznie i nie jest ostateczna. Może zostać zarówno obniżona
-      jak i zwiększona w trakcie negocjacji.
-      Cena zalezy od przedmiotu, prowadzącego oraz nakładu pracy jakiego od nas wymagasz.
-      W wypadku otrzymania oceny niższej niż dostateczny mozliwe jest zgloszenie reklamacji i odzskanie
-      pieniędzy.
-    </div>
+Jeżeli nasze rozwiązanie nie otrzyma oceny co najmniej dostatecznej gwarantujemy zwrot pieniędzy. 
 
-    <div className="subHeader">Dlaczego my?</div>
-    <div className="article">
-      Pomimo tego że prawie 100% naszych rozwiązań zdaje jestesmy jedna z najtańszych opcji i jako jedni z niewielu 
-      zapewniamy gwarancje zwrotu pieniedzy w przypadku oceny niższej niz dostatecznej.
-    </div>
+Zarezerwuj termin w sekcji sklepu lub zadaj nam pytanie w razie niejasności używając formularza 
+
+sekcji kontaktu. 
+
+ 
+    </h3>
+
+    <h2>Jak działamy? </h2>
+    <h3>
+    Po wypełnieniu formularza 
+
+na podanego przez Ciebie e-maila wysłana zostanie odpowiedź wraz z proponowaną ceną za usługę. 
+
+Cena generowana jest automatycznie i nie jest ostateczna. Może zostać zarówno obniżona 
+
+jak i zwiększona w trakcie negocjacji. 
+
+Cena zależy od przedmiotu, prowadzącego oraz nakładu pracy jakiego od nas wymagasz. 
+
+W wypadku otrzymania oceny niższej niż dostateczny możliwe jest zgłoszenie reklamacji i odzyskanie 
+
+pieniędzy. 
+
+ 
+    </h3>
+
+    <h2>Dlaczego my?</h2>
+    <article>
+    Pomimo tego że prawie 100% naszych rozwiązań zdaje jesteśmy jedna z najtańszych opcji i jako jedni z niewielu  
+
+zapewniamy gwarancje zwrotu pieniędzy w przypadku oceny niższej niż dostatecznej. 
+
+ 
+    </article>
 
 
   </div>
